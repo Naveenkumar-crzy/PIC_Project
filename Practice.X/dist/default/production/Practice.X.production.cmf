@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+$C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 end_init CODE 0 0 0 3 2 1
 config CONFIG 4 2007 2007 1 2 1
 $dist/default/production\Practice.X.production.o
@@ -80,11 +80,11 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Practice.X.production.o
-7FC cinit CODE >486:C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
-7FC cinit CODE >489:C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
-7FC cinit CODE >495:C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
-7FC cinit CODE >497:C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
-7FD cinit CODE >498:C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
+7FC cinit CODE >486:C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
+7FC cinit CODE >489:C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
+7FC cinit CODE >495:C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
+7FC cinit CODE >497:C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
+7FD cinit CODE >498:C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
 62F text14 CODE >49:D:\Embedded\Programs\PIC programs\Practice.X\main.c
 62F text14 CODE >50:D:\Embedded\Programs\PIC programs\Practice.X\main.c
 63B text14 CODE >51:D:\Embedded\Programs\PIC programs\Practice.X\main.c
@@ -217,13 +217,13 @@ __L__absolute__ 0 0 ABS 0 __absolute__ -
 __end_of_I2C_Start C36 0 CODE 0 text13 dist/default/production\Practice.X.production.o
 __end_of_I2C_Write C5E 0 CODE 0 text11 dist/default/production\Practice.X.production.o
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___sp 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 _main EAE 0 CODE 0 maintext dist/default/production\Practice.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production\Practice.X.production.o
-___stack_hi 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-___stack_lo 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___stack_hi 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+___stack_lo 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 LCD_SendByte@mode 77 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
-start 0 0 CODE 0 init C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+start 0 0 CODE 0 init C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 _LCD_Init F4C 0 CODE 0 text2 dist/default/production\Practice.X.production.o
 _I2C_Start C24 0 CODE 0 text13 dist/default/production\Practice.X.production.o
 __Hpowerup 0 0 CODE 0 powerup -
@@ -231,12 +231,12 @@ _I2C_Write C48 0 CODE 0 text11 dist/default/production\Practice.X.production.o
 LCD_SendByte@value 79 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
 __end_of_LCD_SetCursor DC6 0 CODE 0 text5 dist/default/production\Practice.X.production.o
 __end_of_LCD_Init FF8 0 CODE 0 text2 dist/default/production\Practice.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Practice.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
@@ -251,12 +251,12 @@ __Lmaintext 0 0 ABS 0 maintext -
 __end_of_I2C_Init C92 0 CODE 0 text3 dist/default/production\Practice.X.production.o
 __end_of_I2C_Stop C48 0 CODE 0 text12 dist/default/production\Practice.X.production.o
 __end_of_I2C_Wait C78 0 CODE 0 text14 dist/default/production\Practice.X.production.o
-___stackhi 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-___stacklo 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___stackhi 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 __end_of_ON_MODE D0E 0 CODE 0 text1 dist/default/production\Practice.X.production.o
 start_initialization FF8 0 CODE 0 cinit dist/default/production\Practice.X.production.o
 _LCD_PulseEnable DC6 0 CODE 0 text10 dist/default/production\Practice.X.production.o
-_TRISCbits 87 0 ABS 0 - dist/default/production\Practice.X.production.o
+_TRISBbits 86 0 ABS 0 - dist/default/production\Practice.X.production.o
 LCD_PulseEnable@data 72 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Practice.X.production.o
 _SSPADD 93 0 ABS 0 - dist/default/production\Practice.X.production.o
@@ -265,7 +265,7 @@ _SSPCON 14 0 ABS 0 - dist/default/production\Practice.X.production.o
 _TRISC3 43B 0 ABS 0 - dist/default/production\Practice.X.production.o
 _TRISC4 43C 0 ABS 0 - dist/default/production\Practice.X.production.o
 __end_of_LCD_Clear CB4 0 CODE 0 text7 dist/default/production\Practice.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___int_sp 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 __end_of_LCD_Print D84 0 CODE 0 text6 dist/default/production\Practice.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -318,7 +318,7 @@ __S1 7C 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __Lintentry 0 0 CODE 0 intentry -
 __stringtab 6 0 STRING 0 strings dist/default/production\Practice.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 __ptext10 DC6 0 CODE 0 text10 dist/default/production\Practice.X.production.o
 __ptext11 C48 0 CODE 0 text11 dist/default/production\Practice.X.production.o
 __ptext12 C36 0 CODE 0 text12 dist/default/production\Practice.X.production.o
@@ -361,8 +361,8 @@ __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __H__absolute__ 0 0 ABS 0 __absolute__ -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-___heap_hi 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-___heap_lo 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___heap_hi 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+___heap_lo 0 0 ABS 0 - C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 LCD_SendNibble@data 76 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
 LCD_SendNibble@mode 73 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
 _LCD_SetCursor D84 0 CODE 0 text5 dist/default/production\Practice.X.production.o
@@ -380,8 +380,8 @@ __Lram 0 0 ABS 0 ram -
 LCD_Print@str 7A 0 COMMON 1 cstackCOMMON dist/default/production\Practice.X.production.o
 __initialization FF8 0 CODE 0 cinit dist/default/production\Practice.X.production.o
 __pstrings 6 0 STRING 0 strings dist/default/production\Practice.X.production.o
-___int_stack_hi 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
-___int_stack_lo 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+___int_stack_hi 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
+___int_stack_lo 0 0 STACK 2 stack C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.

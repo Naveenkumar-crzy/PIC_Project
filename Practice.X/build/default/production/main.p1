@@ -56,17 +56,17 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 295: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x007)));
 [v _PORTCbits `VS13 ~T0 @X0 0 e@7 ]
 [p mainexit ]
-"1443
-[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1443:     struct {
-[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S62 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
-"1442
-[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1442: typedef union {
-[u S61 `S62 1 ]
-[n S61 . . ]
-"1454
-[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1454: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x087)));
-[v _TRISCbits `VS61 ~T0 @X0 0 e@135 ]
+"1381
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1381:     struct {
+[s S60 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S60 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1380
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1380: typedef union {
+[u S59 `S60 1 ]
+[n S59 . . ]
+"1392
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1392: extern volatile TRISBbits_t TRISBbits __attribute__((address(0x086)));
+[v _TRISBbits `VS59 ~T0 @X0 0 e@134 ]
 "1499
 [; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1499: extern volatile unsigned char TRISD __attribute__((address(0x088)));
 [v _TRISD `Vuc ~T0 @X0 0 e@136 ]
@@ -555,7 +555,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 130: 
 [e ( _LCD_Print (1 :s 2C ]
 "132
-[; ;main.c: 132:     TRISCbits.TRISC5 = 0;
+[; ;main.c: 132:     TRISBbits.TRISB0 = 0;
 }
 [e $U 119  ]
 "133
@@ -621,7 +621,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [f ]
 "157
 [; ;main.c: 157:         {
-[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
+[e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
 "158
 [; ;main.c: 158:            LCD_SetCursor(3, 1);
 [e = _TRISD -> -> 255 `i `uc ]

@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V3.00 build 20241204225717 
-                                                                                               Tue Apr 29 16:18:15 2025
+                                                                                               Tue Apr 29 16:33:24 2025
 
 Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1 
      1                           	processor	16F877A
@@ -204,7 +204,7 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
    190     0013                     _SSPBUF         set	19
    191     0014                     _SSPCON         set	20
    192     0088                     _TRISD          set	136
-   193     0087                     _TRISCbits      set	135
+   193     0086                     _TRISBbits      set	134
    194     0094                     _SSPSTAT        set	148
    195     0093                     _SSPADD         set	147
    196     0091                     _SSPCON2        set	145
@@ -497,7 +497,7 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
    483                           ;main.c: 157:         {
    484     0757  1683               	bsf	3,5	;RP0=1, select bank1
    485     0758  1303               	bcf	3,6	;RP1=0, select bank1
-   486     0759  1287               	bcf	7,5	;volatile
+   486     0759  1006               	bcf	6,0	;volatile
    487                           
    488                           ;main.c: 158:            LCD_SetCursor(3, 1);
    489     075A  30FF               	movlw	255
@@ -947,7 +947,7 @@ Microchip MPLAB XC8 C Compiler v3.00 (Free license) build 20241204225717 Og1
    932     0739  00FA               	movwf	LCD_Print@str
    933     073A  120A  118A  26A4  120A  118A  	fcall	_LCD_Print
    934                           
-   935                           ;main.c: 132:     TRISCbits.TRISC5 = 0;
+   935                           ;main.c: 132:     TRISBbits.TRISB0 = 0;
    936     073F  2F56               	goto	l83
    937     0740                     l852:
    938                           
@@ -1847,7 +1847,7 @@ DATA                 0      0      19      0.0%
 
 
 Microchip Technology PIC Macro Assembler V3.00 build 20241204225717 
-Symbol Table                                                                                   Tue Apr 29 16:18:15 2025
+Symbol Table                                                                                   Tue Apr 29 16:33:24 2025
 
                       pc 0002                       l33 0648                       l42 061A  
                      l51 0709                       l60 07FB                       l45 0623  
@@ -1916,7 +1916,7 @@ Symbol Table                                                                    
        ?_LCD_PulseEnable 0070                _LCD_Clear 0649                _AUTO_MODE 070A  
               _LCD_Print 06A4     end_of_initialization 07FC         LCD_SetCursor@col 007A  
        LCD_SetCursor@row 0020               ?_I2C_Start 0070               ?_I2C_Write 0070  
-              _PORTCbits 0007                _PORTDbits 0008                _TRISCbits 0087  
+              _PORTCbits 0007                _PORTDbits 0008                _TRISBbits 0086  
              ?_LCD_Clear 0070               ?_AUTO_MODE 0070               ?_LCD_Print 007A  
            _LCD_SendByte 0687    __end_of_LCD_SetCursor 06E3      start_initialization 07FC  
             ??_I2C_Start 0070              ??_I2C_Write 0070                ___latbits 0002  

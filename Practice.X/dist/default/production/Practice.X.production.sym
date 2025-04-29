@@ -78,7 +78,7 @@ end_of_initialization 7FC 0 CODE 0
 ___stacklo 0 0 ABS 0
 _SSPCON2 91 0 ABS 0
 __stringtab 3 0 STRING 0
-_TRISCbits 87 0 ABS 0
+_TRISBbits 86 0 ABS 0
 _PORTCbits 7 0 ABS 0
 _PORTDbits 8 0 ABS 0
 __Hstrings 0 0 ABS 0
@@ -197,7 +197,7 @@ text12 C36 C47 CODE C36 0
 text13 C24 C35 CODE C24 0
 %locals
 dist/default/production\Practice.X.production.o
-C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_1.s
+C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_1.s
 486 7FC 0 CODE 0
 489 7FC 0 CODE 0
 495 7FC 0 CODE 0

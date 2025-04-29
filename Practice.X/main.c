@@ -154,7 +154,7 @@ void LCD_Print(const char* str) {
 // Main Program
 //--------------------------------------
  void main(void) {
-    TRISCbits.TRISC5 = 0; 
+    TRISBbits.TRISB0 = 0; 
     TRISD = 0xFF;    // Port D input
     I2C_Init();
     LCD_Init();

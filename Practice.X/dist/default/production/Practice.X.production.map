@@ -6,10 +6,10 @@ Linker command line:
   --edf=C:\Program Files\Microchip\xc8\v3.00\pic\dat\20241204225717_en.msgs \
   -cn -h+dist/default/production\Practice.X.production.sym \
   --cmf=dist/default/production\Practice.X.production.cmf -z -Q16F877A \
-  -oC:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_3.o \
+  -oC:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_3.o \
   --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
   -Mdist/default/production/Practice.X.production.map \
-  --md=C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_0.dat -E1 \
+  --md=C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_0.dat -E1 \
   -ver=XC8 Compiler -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
   -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
   -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
@@ -22,7 +22,7 @@ Linker command line:
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry,sivt,init,end_init -ppowerup=CODE -pcinit=CODE \
   -pfunctab=ENTRY -k \
-  C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o \
+  C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o \
   dist/default/production\Practice.X.production.o 
 
 Object code version is 3.11
@@ -32,7 +32,7 @@ Machine type is 16F877A
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\crazy\AppData\Local\Temp\xcAsclo.\driver_tmp_12.o
+C:\Users\crazy\AppData\Local\Temp\xcAsj7o.\driver_tmp_12.o
                 end_init                              0        0        3        0       0
                 config                             2007     2007        1        0       4
 dist/default/production\Practice.X.production.o
@@ -214,9 +214,9 @@ _SSPBUF                  (abs)        0013
 _SSPCON                  (abs)        0014
 _SSPCON2                 (abs)        0091
 _SSPSTAT                 (abs)        0094
+_TRISBbits               (abs)        0086
 _TRISC3                  (abs)        043B
 _TRISC4                  (abs)        043C
-_TRISCbits               (abs)        0087
 _TRISD                   (abs)        0088
 __H__absolute__          __absolute__ 0000
 __Habs1                  abs1         0000

@@ -2032,7 +2032,7 @@ void LCD_Print(const char* str) {
 
 
  void main(void) {
-    TRISCbits.TRISC5 = 0;
+    TRISBbits.TRISB0 = 0;
     TRISD = 0xFF;
     I2C_Init();
     LCD_Init();
