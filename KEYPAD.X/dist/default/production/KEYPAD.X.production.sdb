@@ -1,0 +1,88 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"25 C:\Users\crazy\MPLABXProjects\KEYPAD.X\main.c
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+"34
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"50
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"58
+[v _keypad keypad `(v  1 e 1 0 ]
+"78
+[v _main main `(v  1 e 1 0 ]
+[s S23 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES32  1 e 1 @6 ]
+[s S50 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S59 . 1 `S50 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES59  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"78 C:\Users\crazy\MPLABXProjects\KEYPAD.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"92
+} 0
+"50
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"56
+} 0
+"34
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@cmd cmd `uc  1 p 1 wreg ]
+[v lcd_cmd@cmd cmd `uc  1 p 1 wreg ]
+"36
+[v lcd_cmd@cmd cmd `uc  1 p 1 2 ]
+"42
+} 0
+"58
+[v _keypad keypad `(v  1 e 1 0 ]
+{
+"74
+} 0
+"25
+[v _lcd_data lcd_data `(v  1 e 1 0 ]
+{
+[v lcd_data@data data `uc  1 p 1 wreg ]
+[v lcd_data@data data `uc  1 p 1 wreg ]
+"27
+[v lcd_data@data data `uc  1 p 1 2 ]
+"33
+} 0

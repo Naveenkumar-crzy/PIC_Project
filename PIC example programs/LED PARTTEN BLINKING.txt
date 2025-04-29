@@ -1,0 +1,89 @@
+#include <xc.h>
+
+#define _XTAL_FREQ 20000000  // Define clock frequency (20 MHz) 
+
+
+
+unsigned char arr[4]={0x01,0x02,0x04,0x08};
+void main(void) 
+{  
+    TRISB= 0x00;
+    TRISC=0x01;
+    unsigned int x =0 ;
+    
+    while (1)
+    {
+        if (PORTCbits.RC0 ==1)
+        {
+            x++;
+            if (x==5)
+            {
+                x=1;
+            }
+        }
+    switch (x)
+    {
+      
+            case 1:
+                while (1)
+                {
+                for (unsigned int i = 0 ; i <4 ;i++)
+                {
+                    PORTB = arr[i];
+                    __delay_ms(500);
+                    if (PORTCbits.RC0 ==1)
+                    {
+                     break;
+                     }
+                }
+                break;
+                }   
+                break;
+                   case 2:
+               while(1)
+    {
+    PORTB= 0x03;
+    __delay_ms(300);
+    PORTB= 0x0C;
+    __delay_ms(300);
+    
+    if (PORTCbits.RC0 ==1)
+    {
+        break;
+    }
+    }
+                break;
+                   case 3:
+              {while (1){
+  PORTB= 0x0f;
+    __delay_ms(300);
+    PORTB= 0x00;
+      __delay_ms(300);
+    if (PORTCbits.RC0 ==1)
+    {
+        break;
+    }
+}    
+                break;
+                   case 4:
+              {while (1){
+    PORTB= 0x01;
+    __delay_ms(300);
+     PORTB= 0x03;
+    __delay_ms(300);
+     PORTB= 0x7;
+    __delay_ms(300);
+     PORTB= 0x0F;
+    __delay_ms(300);
+    PORTB = 0x00;
+     __delay_ms(300);
+     if (PORTCbits.RC0 ==1)
+    {break;
+}
+                break;
+                default :
+                    break;
+    }       
+    }
+                }}
+    }}
